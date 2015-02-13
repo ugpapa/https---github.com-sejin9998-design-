@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* 나눔 고딕 */
+
+/* 화면 상단 빨간 라인 */
+.top-back { border-top: 2px solid #FF0000} 
+/* 네비 게이션 부분 */
+.nav-white { border: none; background-color: #fff; margin-top: 20px;}
+.nav-main {font-family: 'Malgun Gothic', sans-serif; font-size: 18px; }
+.nav-main a {transition: all 0.3s ease-in-out;}
+.nav-main a:hover { border-bottom: 2px solid #FF0000}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus { background-color: #fff; }
+
+
+/* 로고 부분 처리 */
+.logo { background: url(../imgs/logo.png) no-repeat  0 10px; width: 169px; height: 40px;  }
+
+.main-back { background: url(../imgs/backstage.jpg) no-repeat center bottom; background-color: #000; color:#fff; text-shadow:2px 2px 4px #000; height: 300px;}
+.tptxt { padding-top: 50px; font-family:}
+.main-back h2 { font-size: 2.5em; font-family: "Nanum Gothic", sans-serif; font-weight: bold;}
+.main-back h3 { font-size: 1.8em}
+/* 상단 네비게이션 부분 반응형 */
+@media (min-width:1199px) { 
+.nav-main li a {padding: 7px 25px 5px; margin-top: 10px}
+}
+@media (max-width: 989px) { 
+.nav-main li a {padding: 7px 3px 5px; margin-top: 10px; font-size: 13px;}
+}
+
+.register-part { padding: 20px 0; background-color: #E3E3E3}
+.hotshow {background: url(../imgs/divide.jpg) repeat-x top; background-color: #f5f5f5; padding-bottom: 30px}
+
+h3.tte { padding: 20px 0 25px }
+/*아이콘 처리 */
+.rbod { padding: 30px; border-radius: 50%; background-color: #ccc; color:#fff; transition: all 0.5s ease-in-out;}
+.rbod:hover { background-color: #0080FF}
+
+.jumbotron h2 { font-weight: bold; padding-top: 30px}
+.one { padding: 10px 0; margin-top: 20px;  background-color: #F1F1EF}
+/* 푸터 부분*/
+.footback { background-color: #3A3C33; color: #fff; padding: 40px 0}
+.addpart { line-height: 2em}
+footer { font-size: 13px;}
+footer a { color: #FFFFFF; font-size: 15px}
+footer a:hover { text-decoration: none; color: #FF8000}
